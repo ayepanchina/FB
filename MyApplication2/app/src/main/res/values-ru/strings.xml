@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="title_section1">Месяцочек</string>
+    <string name="title_section2">Баланс</string>
+    <string name="title_section3">Транзакции</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity2">MainActivity</string>
+    <string name="hello_world"></string>
+    <string name="delete">delete</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_main_activity3">MainActivity</string>
+    <string name="title_activity_add__edit__item">Add_Edit_Item</string>
+    <string name="item1">Добавить</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="title_activity_plan_expense">План затрат</string>
+    <string name="plan">Плановые затраты на месяц</string>
+
+    <string name="title_activity_set_plan_expense">Установить план затрат</string>
+    <string name="title_activity_plan_successfull">Успешное планирование</string>
+    <string name="title_activity_plan_failed">Неуспешное планирование</string>
+
+    <!-- ACTIVITIES-->
+    <!-- AddEditCategory -->
+    <string name="income">доход</string>
+    <string name="expense">затраты</string>
+    <string name="position">позиция</string>
+    <!-- Balance -->
+    <string name="outcome">затраты</string>
+    <!-- MainActivity -->
+    <string name="navigation_menu">Меню</string>
+    <string name="plan_params">Плановые параметры</string>
+    <string name="plan_menu">Планирование</string>
+    <!-- PlanFailed -->
+    <string name="incomes_should_be">Доход должен быть не меньше чем </string>
+    <string name="outcomes_should_be">Затраты должны быть уменьшены до </string>
+    <string name="per_month"> за месяц</string>
+    <string name="needed">Нужно </string>
+    <string name="reserve">Накопления</string>
+    <string name="reserved"> накоплено</string>
+    <string name="plan_expense">Планирование затрат</string>
+
+
+    <!-- LAYOUTS -->
+    <!-- fragment_add_edit_category -->
+    <string name="category_name">Имя</string>
+    <string name="category_add">Добавить</string>
+
+    <!-- fragment_add_edit_item -->
+    <string name="add_transaction">Добавить транзакцию</string>
+
+    <!-- fragment_plan_expense -->
+    <string name="transport">Транспорт</string>
+    <string name="food">Еда</string>
+    <string name="bill">Счета</string>
+    <string name="other">Другое</string>
+    <string name="sum">Сумма</string>
+    <string name="set">Установить</string>
+    <string name="planIncome">Планирование дохода за месяц</string>
+
+    <!-- fragment_set_plan_expense -->
+    <string name="set_plan">Планирование</string>
+
+    <!-- fragment_transaction_history -->
+    <string name="add_category">Добавить категорию</string>
+    <string name="all_categories">Все</string>
+    <string name="add">Add</string>
+    <string name="summary_item_label">Fact/Plan</string>
+    <string name="currentYear">current year</string>
+    <string name="periodFromTo">period from to</string>
+    <string name="please_add_transaction">Please enter value of your transaction</string>
+
+
+</resources>

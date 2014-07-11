@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AppThemeBudget" parent="@style/_AppThemeBudget"/>
+
+  <style name="_AppThemeBudget" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/appthemebudget_edit_text_holo_light</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/appthemebudget_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/appthemebudget_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonAppThemeBudget</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppThemeBudget</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerAppThemeBudget</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppThemeBudget</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarAppThemeBudget</item>
+
+
+    <item name="android:actionBarStyle">@style/ActionBar.Transparent.Budget</item>
+    <item name="android:actionBarItemBackground">@drawable/selectable_background_budget</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Budget</item>
+    <item name="android:dropDownListViewStyle">@style/DropDownListView.Budget</item>
+    <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Budget</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Budget</item>
+    <item name="android:actionModeBackground">@drawable/cab_background_top_budget</item>
+    <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_budget</item>
+    <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Budget</item>
+
+  </style>
+
+</resources>

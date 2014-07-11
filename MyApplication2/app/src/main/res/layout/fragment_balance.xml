@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.Balance">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/periodFromTo"
+                android:id="@+id/checkBoxFromTo2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@android:style/Widget.Holo.Spinner"
+                android:text="Medium Text"
+                android:id="@+id/textViewDateFrom2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@android:style/Widget.Holo.Spinner"
+                android:text="Medium Text"
+                android:id="@+id/textViewDateTo2"
+                android:onClick="showDatePickerDialog"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentMonth"
+            android:id="@+id/checkBoxCurrentMonth2" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentYear"
+            android:id="@+id/checkBoxCurrentYear2" />
+
+        <com.echo.holographlibrary.BarGraph
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/bargraph"/>
+
+    </LinearLayout>
+
+</FrameLayout>

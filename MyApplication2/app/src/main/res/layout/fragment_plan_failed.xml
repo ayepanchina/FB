@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.app.PlanFailed$PlaceholderFragment">
+
+
+    <com.echo.holographlibrary.BarGraph
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/bargraph3"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textFood"
+        android:textColor="#135a09"
+        android:text="gggg"
+        android:layout_below="@+id/bargraph3"
+        android:layout_centerHorizontal="true"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewIncome"
+        android:textColor="#ff2117"
+        android:text="ddFFF"
+        android:layout_below="@+id/textViewTransport"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewBill"
+        android:layout_below="@+id/textViewIncome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="OR"
+        android:id="@+id/textViewTransport"
+        android:layout_below="@+id/textFood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sad6"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/textViewBill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+    </RelativeLayout>
+</RelativeLayout>
